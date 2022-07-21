@@ -14,3 +14,5 @@ Os dados viriam de 3 APIs: da Kenoby, do Apdata (o sistema de RH) e o Discovery 
 Após ETL realizado com o dbt, os dados migrariam para a camada ouro, o Data Warehouse, onde poderiam ser ingeridos diretamente pelo PowerBI, para análises diagnósticas e descritivas, além do Athena, caso os analistas precisem extrair os dados com mais personalização. Por fim, ainda existiria uma integração de mão-dupla com o sagemaker, onde os cientistas de dados da equipe poderiam modelar os dados de predição de turn-over e retroalimentar o sistema.
 
 ## Arquitetura:
+
+![img](https://github.com/romulo-leao/how-data-engineering/blob/main/arquitetura%20RH.JPG?raw=true)
